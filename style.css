@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto Mono";
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+form {
+    width: min(100%, 25rem);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+input[type="text"] {
+    font-family: inherit;
+    width: 75%;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    border-radius: 0;
+    border: 2px solid black;
+}
+
+button {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+img {
+    width: min(100%, 25rem);
+}
+
+#output {
+    margin: 4rem auto;
+    padding: 0.5rem;
+    font-size: 2rem;
+    position: relative;
+    border: 6px solid black;
+    width: max-content;
+}
+
+/* #output::after {
+    content: ">";
+    position: absolute;
+    font-size: 3.25rem;
+    transform: rotate(-90deg) translateY(50%);
+    top: -3rem;
+    right: 50%;
+} */
